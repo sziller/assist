@@ -10,9 +10,9 @@ python setup.py sdist bdist_wheel   # for both
 from setuptools import setup
 
 setup(
-    name='assist',  # package name, used at pip or tar.
-    version='0.0.0',  # version Nr.... whatever
-    packages=["time_format", "cryptography"],  # string list of packages to be translated
+    name='sziller_assist',  # package name, used at pip or tar.
+    version='0.0.1',  # version Nr.... whatever
+    packages=["time_format", "cryptography", "DataVisualizer"],  # string list of packages to be translated
     url='',  # if url is used at all
     license='',  # ...
     author='sziller',  # well obvious
